@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   title: "Gurnoor Singh — Systems / AI / Architecture",
   description: "Portfolio of Gurnoor Singh, B.Tech Computer Science and Engineering student at IIT Ropar.",
   authors: [{ name: "Gurnoor Singh" }],
+  icons: {
+    icon: ["/favicon.ico", "/favicon-16x16.png", "/favicon-32x32.png", "/icon-192.png", "/icon-512.png"],
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
