@@ -1,0 +1,16 @@
+:root {
+  --ink: #10151a;
+  --graphite: #1d272d;
+  --atmosphere: #314b50;
+  --surface: #233338;
+  --text: #eee9e2;
+  --muted: #a5b0ac;
+  --signal: #c26b4e;
+  --line: rgba(238, 233, 226, 0.14);
+  --line-strong: rgba(238, 233, 226, 0.28);
+  --serif: Georgia, 'Times New Roman', serif;
+  --sans: 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
+  --mono: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+  --page: clamp(1.25rem, 4vw, 4.75rem);
+  --section: clamp(6rem, 13vw, 13rem);
+}
